@@ -1,4 +1,4 @@
-#setwd("C:/cygwin64/home/dlk/coding/python/dataincubatorinterview")
+#setwd("---")
 D<-read.csv("Data.csv")
 
 PisaMathrows <- D[which(D[4]=='LO.PISA.MAT' & D[16] != ''),1]
